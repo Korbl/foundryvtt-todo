@@ -44,20 +44,6 @@ jobs:
         working-directory: ./dist #SORRY BUT YOU HAVE TO USE DIST JUST LIKE GET OVER IT OR FIGURE OUT A BETTER WAY
         run: zip -r ../module.zip ${{steps.get-includes.outputs.files}}
 
-      # Update the 'latest' release
-      - name: Update Latest Release
-        id: create_latest_release
-        uses: ncipollo/release-action@v1
-        if: endsWith(github.ref, 'master')
-        with:
-          allowUpdates: true
-          name: Latest
-          draft: false
-          prerelease: false
-          token: ${{ secrets.GITHUB_TOKEN }}
-          artifacts: './dist/module.json, ./module.zip'
-          tag: latest
-
       # Create a release for this specific version
       - name: Create Version Release
         id: create_version_release

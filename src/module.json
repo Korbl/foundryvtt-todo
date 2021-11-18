@@ -8,12 +8,12 @@
       "discord": "korbl#7621"
     }
   ],
-  "version": "0.0.3",
+  "version": "0.0.4",
   "minimumCoreVersion": "0.8.0",
   "compatibleCoreVersion": "0.8.8",
-  "url": "",
-  "manifest": "",
-  "download": "",
+  "url": "https://github.com/Korbl/foundryvtt-todo/",
+  "manifest": "https://github.com/Korbl/foundryvtt-todo/releases/download/latest/module.json",
+  "download": "https://github.com/Korbl/foundryvtt-todo/releases/latest/download/module.zip",
   "type": "module",
   "includes": ["./lang/**", "./scripts/**", "./styles/**", "./module.json", "./README.md"],
   "esmodules": ["scripts/module.js"],

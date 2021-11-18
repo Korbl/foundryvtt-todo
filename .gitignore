@@ -1,0 +1,30 @@
+# Visual Studio Code
+.vscode
+.history
+
+# Mac
+.DS_Store
+
+# nodejs
+node_modules
+dist
+.nyc_output
+
+# JSDoc
+docs
+
+# mime node module
+mime
+mime.cmd
+
+.env
+
+# ignore coverage
+**/coverage/*
+
+# typescript
+*.js
+*.d.ts
+!jest.config.js
+!.eslintrc.js
+!.prettierrc.js

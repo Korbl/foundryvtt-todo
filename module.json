@@ -9,5 +9,8 @@
   ],
   "version": "0.1",
   "minimumCoreVersion": "0.8.8",
-  "scripts": ["scripts/todo-list.js"]
+  "scripts": ["scripts/todo-list.js"],
+  "url": "https://github.com/CDeenen/MaterialPlane",
+  "manifest": "https://raw.githubusercontent.com/Korbl/foundryvtt-todo/master/module.json",
+  "download": "https://github.com/Korbl/foundryvtt-todo/releases/download/0.1/module.zip"
 }

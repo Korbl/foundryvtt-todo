@@ -7,7 +7,7 @@
       "name": "asimple module which adds a user specific to do list."
     }
   ],
-  "version": "0.1",
+  "version": "0.0.3",
   "minimumCoreVersion": "0.8.8",
   "scripts": ["scripts/todo-list.js"],
   "url": "https://github.com/CDeenen/MaterialPlane",

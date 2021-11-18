@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: 14
       - run: npm install
-      - run: gulp --gulpfile gulpfile.ts
+      - run: gulp build
 
       # Get the version from 'module.json'
       - name: Get Version

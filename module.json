@@ -14,7 +14,3 @@
   "manifest": "https://raw.githubusercontent.com/Korbl/foundryvtt-todo/master/module.json",
   "download": "https://github.com/Korbl/foundryvtt-todo/releases/download/0.1/module.zip"
 }
-
-// https://github.com/League-of-Foundry-Developers/FoundryVTT-Module-Template/blob/master/.github/workflows/main.yml
-
-// https://github.com/League-of-Foundry-Developers/foundry-typescript-template

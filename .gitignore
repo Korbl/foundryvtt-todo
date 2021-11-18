@@ -23,12 +23,5 @@ mime.cmd
 **/coverage/*
 
 # typescript
-*.js
 *.d.ts
-!jest.config.js
-!.eslintrc.js
-!.prettierrc.js
-!get-includes.js
-!.github/workflows/get-includes.js
-!.github/workflows/get-version.js
 

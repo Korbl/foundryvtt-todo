@@ -1,14 +1,14 @@
 {
-  "name": "rime-todo-list",
-  "title": "ToDo lists for RoTFM",
+  "name": "czech-list",
+  "title": "check list for players",
   "description": "",
   "authors": [
     {
       "name": "seth",
-      "discord": "korbl#6256"
+      "discord": "korbl#7621"
     }
   ],
-  "version": "0.0.1",
+  "version": "0.0.3",
   "minimumCoreVersion": "0.8.0",
   "compatibleCoreVersion": "0.8.8",
   "url": "",
@@ -22,7 +22,7 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json"
+      "path": "languages/en.json"
     }
   ]
 }
